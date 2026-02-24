@@ -26,7 +26,7 @@ Ali M. Qaragoez, Rafal Wisniewski, Alessandro Lucantonio
 - Linux / macOS.
 - Python 3.10+ (conda environment recommended).
 - [Flex](https://github.com/cpml-au/Flex) symbolic regression engine.
-- Optional: [dReal](http://dreal.org/) for δ‑complete formal verification.
+- Optional: [dReal](https://dreal.github.io/) for δ‑complete formal verification.
 - Standard scientific Python stack (installed via `environment.yaml`).
 
 ---
@@ -47,7 +47,7 @@ conda env create -f environment.yaml
 conda activate symclf
 
 # install dReal if you plan to use formal verification
-# e.g., follow instructions at http://dreal.org
+# e.g., follow instructions at https://dreal.github.io/
 ```
 
 > **Tip:** use `conda activate symclf && pip install -e .` if
