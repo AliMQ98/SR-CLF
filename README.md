@@ -26,7 +26,7 @@ Ali M. Qaragoez, Rafal Wisniewski, Alessandro Lucantonio
 - Linux / macOS.
 - Python 3.10+ (conda environment recommended).
 - [Flex](https://github.com/cpml-au/Flex) symbolic regression engine.
-- Optional: [dReal](http://dreal.org/) for δ‑complete formal verification.
+- Optional: [dReal](https://dreal.github.io/) for δ‑complete formal verification.
 - Standard scientific Python stack (installed via `environment.yaml`).
 
 ---
@@ -47,7 +47,7 @@ conda env create -f environment.yaml
 conda activate symclf
 
 # install dReal if you plan to use formal verification
-# e.g., follow instructions at http://dreal.org
+# e.g., follow instructions at https://dreal.github.io/
 ```
 
 > **Tip:** use `conda activate symclf && pip install -e .` if
@@ -94,8 +94,8 @@ conda activate symclf
 - `Fitness.fitness` – main fitness evaluation used by GP.
 - `VVdot_Calculations.compute_v_and_v_dot` – numeric CLF and derivative.
 - `SymVVdot_Calculations` – symbolic routines for formal specs.
-- `formal_verification.verify` – generate/check SMT2 via dReal.
-- `NumSol.simulate` – simulate trajectories and compute performance costs.
+- `formal_verification.a_violation_check` – generate/check SMT2 via dReal.
+- `NumSol` – simulate trajectories and compute performance costs.
 
 See docstrings in each module for further details.
 
