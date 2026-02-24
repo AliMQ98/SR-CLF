@@ -94,8 +94,8 @@ conda activate symclf
 - `Fitness.fitness` – main fitness evaluation used by GP.
 - `VVdot_Calculations.compute_v_and_v_dot` – numeric CLF and derivative.
 - `SymVVdot_Calculations` – symbolic routines for formal specs.
-- `formal_verification.verify` – generate/check SMT2 via dReal.
-- `NumSol.simulate` – simulate trajectories and compute performance costs.
+- `formal_verification.a_violation_check` – generate/check SMT2 via dReal.
+- `NumSol` – simulate trajectories and compute performance costs.
 
 See docstrings in each module for further details.
 
