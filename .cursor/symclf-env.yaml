@@ -1,0 +1,36 @@
+name: symclf
+channels:
+  - conda-forge
+dependencies:
+  - python==3.12
+  - gmsh
+  - jax==0.5.0
+  - jaxopt
+  - numpy
+  - pygmo
+  - python-gmsh
+  - trame
+  - ipywidgets
+  - jupyterlab
+  - scipy
+  - scikit-learn
+  - pyvista
+  - typeguard
+  - yaml
+  - pygraphviz
+  - matplotlib
+  - pip
+  - pip:
+      - git+https://github.com/cpml-au/dctkit
+      - git+https://github.com/cpml-au/deap
+      - "ray[default]"
+      - pygmsh
+      - mygrad
+      - pmlb
+      - optuna
+      - optuna-integration
+      - sympy
+      - pre-commit
+      - pytest
+      - black
+      - flake8

@@ -1,0 +1,12 @@
+{
+  "name": "SymCLF",
+  "user": "ubuntu",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "jupyterlab",
+      "command": "source \"$HOME/miniforge3/etc/profile.d/conda.sh\" && conda activate symclf && jupyter lab --no-browser --ip=0.0.0.0 --port=8888 --ServerApp.token='' --ServerApp.password=''"
+    }
+  ],
+  "ports": [8888]
+}
